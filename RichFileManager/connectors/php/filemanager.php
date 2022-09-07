@@ -37,7 +37,7 @@ if(!ini_get('date.timezone')) {
 function fm_authenticate()
 {
     // Customize this code as desired.
-    return true;
+    return false;
 
     // If this function returns false, the user will just see an error.
     // If this function returns an array with "redirect" key, the user will be redirected to the specified URL:
