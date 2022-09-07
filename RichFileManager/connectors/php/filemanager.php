@@ -39,7 +39,7 @@ if(!ini_get('date.timezone')) {
 function fm_authenticate()
 {
     // Customize this code as desired.
-    return true;
+    return false;
 }
 
 
